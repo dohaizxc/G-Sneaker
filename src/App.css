@@ -9,13 +9,8 @@
   display: none;
 }
 
-body {
-  height: 100vh;
-  background: white;
-}
-
 .slider-thumb::before {
-  position: absolute;
+  position: fixed;
   content: "";
   right: 0%;
   bottom: -5%;

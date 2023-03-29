@@ -78,10 +78,10 @@ export const ProductQuantity = ({ product, setCart }) => {
             <button
               className="h-6 w-6 bg-[#F6C90E] flex justify-center items-center rounded-full"
               onClick={() => {
-                document
-                  .getElementById(product.id)
-                  .classList.add("animate-scaleout");
-                setTimeout(handleRemovetoCartClick(), 10000);
+                // document
+                //   .getElementById(product.id)
+                //   .classList.add("animate-scaleout");
+                handleRemovetoCartClick();
               }}
             >
               <img src={trash} className="h-4 w-4" />

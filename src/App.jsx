@@ -36,8 +36,8 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full h-[600px] font-rubik text-[#303841] slider-thumb overflow-hidden">
-      <div className="flex flex-col min-[900px]:flex-row gap-10 justify-center items-center min-[900px]:py-0 py-5">
+    <div className="w-full h-[600px] font-rubik text-[#303841] slider-thumb">
+      <div className="flex flex-col min-[900px]:flex-row gap-10 justify-center items-center min-[900px]:py-0 py-5 ">
         <div className="relative bg-white w-[360px] h-[600px] rounded-3xl px-7 overflow-hidden drop-shadow-2xl">
           <div className="absolute left-[-50%] top-[-20%] bg-[#F6C90E] w-[300px] h-[300px] rounded-full" />
           <div className="absolute top-0 left-7">
